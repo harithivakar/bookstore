@@ -3,9 +3,9 @@ const app = require('./app.js');
 
 const init = (app) => {
 
-    app.get('/', (req, res) => {
-        res.send("<h1>It's Working</h1>");
-    });
+    // app.get('/', (req, res) => {
+    //     res.send(`<h1>Hello from ${req.baseUrl}</h1>`);
+    // });
     
 
     app.listen(process.env.PORT, () => {
